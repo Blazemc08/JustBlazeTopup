@@ -1,0 +1,247 @@
+/* ===== RESET & GLOBAL ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: #ffffff;
+}
+
+/* link default */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ===== HEADER ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  background: #111;
+  border-bottom: 1px solid #222;
+}
+
+.header h1 {
+  font-size: 18px;
+  color: #ff2e2e;
+}
+
+.menu-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ===== CONTENT (HOME) ===== */
+.content {
+  padding: 16px;
+}
+
+.content h2 {
+  margin-bottom: 8px;
+  color: #ff2e2e;
+}
+
+.content p {
+  color: #ccc;
+  margin-bottom: 12px;
+}
+
+/* ===== MENU PAGE ===== */
+.menu-page {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+/* kiri (list game) */
+.menu-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-left a {
+  background: #111;
+  border: 1px solid #222;
+  padding: 12px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.menu-left a:hover {
+  background: #1a1a1a;
+}
+
+/* kanan (info web) */
+.menu-right {
+  flex: 1;
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.menu-right img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.menu-right .info {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.menu-right .follow {
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* ===== PRODUK (FF, ML, DLL) ===== */
+.product-list {
+  padding: 16px;
+}
+
+.product {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.product h3 {
+  margin-bottom: 6px;
+  color: #ff2e2e;
+}
+
+.price {
+  color: #ff2e2e;
+  margin-bottom: 10px;
+}
+
+.order-btn {
+  display: block;
+  text-align: center;
+  background: red;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* ===== BACK BUTTON ===== */
+.back-btn {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* ===== WARNA MERAH UNTUK LIST PRODUK DI MENU ===== */
+.menu-left a {
+  background-color: #ff2e2e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ===== FIX WARNA TEKS PRODUK ===== */
+.product h3 {
+  color: #ff2e2e; /* merah */
+}
+
+.product p {
+  color: #cccccc; /* abu terang */
+}
+
+.product-page h2 {
+  color: #ff2e2e;
+}
+
+/* ===== FIX TOMBOL HOME ===== */
+.home-btn {
+  background: #ff2e2e;
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-btn:hover {
+  background: #c90000;
+}
+
+/* ===== FIX TOMBOL BELI ===== */
+.buy-btn {
+  display: block;
+  margin-top: 10px;
+  background: #ff2e2e;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.buy-btn:hover {
+  background: #c90000;
+}
+
+/* ===== FORCE WARNA JUDUL KATEGORI ===== */
+.product-title {
+  grid-column: 1 / -1;
+  margin: 25px 0 10px;
+  color: #ff2e2e !important;
+  font-size: 18px;
+  font-weight: bold;
+  border-left: 4px solid #ff2e2e;
+  padding-left: 10px;
+}
+
+/* ===== FORCE WARNA NAMA PRODUK (SEMUA GAME) ===== */
+.product-card h4 {
+  color: #ff2e2e !important;
+  font-weight: bold;
+}
+
+/* Harga tetap putih biar kontras */
+.product-card p {
+  color: #e0e0e0;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 1080px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
